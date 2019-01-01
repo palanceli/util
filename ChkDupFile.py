@@ -73,6 +73,13 @@ class MainApp(unittest.TestCase):
         fileInfoSpider = FileInfoSpider(root)
         fileInfoSpider.MainProc(outFile)
 
+    def tcSaveInfo2(self):
+        root = '/Volumes/WDMini/典藏'
+        outFile = 'out2.txt'
+        # root = '/Users/palance/Documents/Github/libei_private'
+        fileInfoSpider = FileInfoSpider(root)
+        fileInfoSpider.MainProc(outFile)
+
     def tcParseInfo(self):
         infoFilePath = 'out.txt'
         fileInfoParser = FileInfoParser(infoFilePath)
