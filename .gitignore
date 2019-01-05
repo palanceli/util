@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 out.txt
 result
+out2.txt
